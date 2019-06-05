@@ -1,0 +1,13 @@
+/**
+ * ExamesServer.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package com.soc.exames.webservice;
+
+public interface ExamesServer extends java.rmi.Remote {
+    public com.soc.exames.webservice.Exame getExame(long arg0) throws java.rmi.RemoteException;
+    public com.soc.exames.webservice.Exame[] getExamesList() throws java.rmi.RemoteException;
+}
